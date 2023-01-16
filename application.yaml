@@ -6,13 +6,13 @@ spring:
 spring:
   profiles: dev
   application:
-    name: application-dev
+    name: springCloud-config-dev
 
 ---
 spring:
   profiles: test
   application:
-    name: application-test
+    name: springCloud-config-test
 
 
 
